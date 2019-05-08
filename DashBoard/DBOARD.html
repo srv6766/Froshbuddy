@@ -1,0 +1,157 @@
+ <html>
+     <head>
+         <title>FroshBuddy</title>
+              </head>
+     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <link href="style/style/gridw3.css" type="text/css" rel="stylesheet">
+     <link href="style/style/grid.css" type="text/css" rel="stylesheet">
+     
+     <style>
+         
+img {
+  border-radius: 50%;
+}
+</style>
+     <body>
+         <div class="container">
+         <div class="col-12 row1">
+             <div class="col-1" align="center" id="menu" style="padding-top: 10px;">
+                 <h1><i class="fa fa-bars"></i></h1>
+             </div>
+             <div class="col-3 " align="left" style="">
+                 <h1>
+                 <b>Frosh Buddy</b></h1>
+             </div>
+             <div class="col-4" align="center">
+                 <h1><b>Dashboard</b></h1>
+             </div>
+             <div class="col-4 tpnav" align="center"style="padding-top: 9px;">
+                 <div class="search-container">
+                <form action="/action_page.php">
+      <h3><input type="text" placeholder="Search.." name="search">
+      <button class="button2"type="submit"><i class="fa fa-search"></i></button></h3>
+    </form>
+                     </div>
+             </div>
+             </div>
+         
+         <div class="col-12 row2 colr" style=" " >
+         <div class="col-1" align="center" id="menubar" style="background: #555;height: auto; display: none;">
+             <a href="" class="w3-bar-item w3-button w3-hover-black" style="width: 100%" >
+                <i class="fa fa-home w3-xxlarge"></i>
+                    <p>DASHBOARD</p></a>
+             <a href="pages/about.html" class="w3-bar-item w3-button  w3-hover-black" style="width: 100%">
+             <i class="fa fa-user w3-xxlarge"></i>
+                 <p>ABOUT</p>     </a>
+             <a href="#dropdown-2" class="w3-bar-item w3-button  w3-hover-black" style="width: 100%">
+             <i class="fa fa-question w3-xxlarge"></i>
+                 <p style="font-size: 20px;">Quiz</p>     </a>
+             <a href="pages/Leaderboard.html" class="w3-bar-item w3-button  w3-hover-black" style="width: 100%">
+             <i class="fa fa-chess-king w3-xxlarge"></i>
+                 <p style="font-size: 18px;">Leaderboard</p></a>
+             <a href="#dropdown-1" class="w3-bar-item w3-button  w3-hover-black" style="width: 100%">
+             <i class="far fa-newspaper w3-xxlarge"></i>
+                 <p style="font-size: 18px;">Newspaper</p></a>
+             <a href="pages/faculty.html" class="w3-bar-item w3-button  w3-hover-black" style="width: 100%">
+             <i class="fas fa-chalkboard-teacher w3-xxlarge"></i>
+                 <p style="font-size: 18px;">Faculty</p></a>
+             <a href="pages/contact_us.html" class="w3-bar-item w3-button  w3-hover-black" style="width: 100%">
+             <i class="fa fa-envelope w3-xxlarge"></i>
+                 <p style="font-size: 18px;">Contact Us</p></a>
+             
+             </div>
+          <div class="col-11" id="div2nd" align="center" style="">
+              <div class="col-1" style="height:  450px;">
+              </div>
+              <div class="col-1" id="div3rd" style="height:  450px;width: 50px; display: block;">
+              </div>
+              <div class="col-10 bacimage" align="right" style="max-width: 100%">
+                  
+                  <div class="col-10" style="position: absolute; bottom: 200; color: black; padding: inherit;">
+                      <div class="col-2" align="center" style="">
+                          <img  src="images/avatar.png" alt="Avatar" style="border: 1px solid black;max-width:100px;width: 100%; height: 100px;">
+                      </div>
+                      <div class="col-6" align="left" style=" padding-top: 10px;height: 100px; "> <h1><u><b>Student Name</b></u></h1></div>
+                     
+                  <div class="col-3" align="center" style=" padding-top: 25px;height: 100px;">
+                      <a >
+                          <button class="button2" onclick="openForm()"><b>Edit &nbsp;<i class="fas fa-ellipsis-v"></i></b></button>
+                      </a>
+                  </div>
+                       </div>
+              </div>
+              
+              <div>
+              
+              </div>
+              
+              <div class="col-10 row" align="center">
+              <div id="dropdown-1" class="dropdown dropdown-processed">
+                 <h1><a class="dropdown-link" href="#">Newspaper</a>
+                  </h1> 
+                  <div class="dropdown-container" style="display: none; height: 250px;"  align="center">
+                   <a href="pages/upscnews.html"><div class="col-6 smdiv1 raisedbox w3-hover-black" style="padding-top: 6%; ">
+                <h1>UPSC</h1>
+             </div></a>
+             <a href="pages/technews.html"><div class="col-6 smdiv1 raisedbox w3-hover-black" href="technews.html" style="padding-top: 6%;">
+                 <h1>TECHNICAL</h1>
+             </div></a>
+              
+                          
+            
+                  </div>
+                </div>
+
+                <div id="dropdown-2" class="dropdown dropdown-processed">
+                    <h1> <a class="dropdown-link" href="#">Quiz</a></h1>
+                  <div class="dropdown-container" style="display: none;height: 250px;">
+                     <a href="pages/dsquiz.html"><div class="col-2 smdiv raisedbox w3-hover-black" style="padding-top: 4%;">
+             <h1>Data Structure</h1>
+                         </div></a>
+             <a href="pages/osquiz.html"><div class="col-2 smdiv raisedbox w3-hover-black" style="padding-top: 4%;">
+             <h1>Operating System</h1>
+                 </div></a>
+            <a href="pages/javaquiz.html"><div class="col-2 smdiv raisedbox w3-hover-black" style="padding-top: 6%;">
+             <h1>Java</h1>
+                </div></a>          
+                          
+             <a href="pages/unixquiz.html"><div class="col-2 smdiv raisedbox w3-hover-black" style="padding-top: 6%;">
+             <h1>Unix</h1>
+                 </div></a>
+                  </div>
+                </div>
+
+                <div id="dropdown-3" class="dropdown dropdown-processed">
+                    <h1> <a class="dropdown-link" href="#">Vocabs</a></h1>
+                  <div class="dropdown-container" style="display: none; height: 250px; ">
+                     <a href="pages/vocabs.html"><div class="col-6 smdiv1 raisedbox" style="padding-top: 6%">
+                            <h1>Today's Words</h1>
+                         </div></a>
+             <a href="pages/hsvocabs.html"><div class="col-6 smdiv1 raisedbox" style="padding-top: 6%">
+             <h1>Vocab's History</h1>
+                 </div></a>
+                 </div>
+                </div>
+              
+              </div>
+             
+              
+              </div>
+             
+             
+         </div>
+             <div class="col-12 row3">
+             <center><h3>Copyright &copy; All Rights Reserved - <a href="#">froshbuddy.xyz</a></h3></center>
+             
+             </div>
+            
+             </div>
+         <script src="style/script/anaytics.js"></script>
+    </body>
+    </html>

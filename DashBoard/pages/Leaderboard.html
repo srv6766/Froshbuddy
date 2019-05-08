@@ -1,0 +1,66 @@
+ <html>
+     <head>
+         <title>FroshBuddy</title>
+        
+     </head>
+     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="../style/style/gridw3.css" type="text/css" rel="stylesheet">
+     <link href="../style/style/grid.css" type="text/css" rel="stylesheet">
+     <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAB5ZdOgoCaSfEbnMi-f2B3w_knT84nxQk",
+    authDomain: "test-423e9.firebaseapp.com",
+    databaseURL: "https://test-423e9.firebaseio.com",
+    projectId: "test-423e9",
+    storageBucket: "test-423e9.appspot.com",
+    messagingSenderId: "416069258373"
+  };
+  firebase.initializeApp(config);
+</script>
+<style>
+    .cl{
+        text-align: center;
+    }
+     
+     </style>
+     
+     
+     <body>
+         <div class="container">
+         <div class="col-12 row1">
+             
+             <div class="col-12" align="center">
+                 <h1><b>Leaderboard</b></h1>
+             </div>
+             
+             </div>
+         
+         <div class="col-12 row2 colr" style="min-height: 110% " align="center" >
+                   <table class="cl" id="tbl_users_list" border="3 " style="color: yellow; font-size: 20px;">
+  <tr>
+   <td>Enrollment No</td>
+   <td>Name</td>
+      <td>DS Quiz</td>
+   <td>OS Quiz</td>
+      <td>C++ Quiz</td>
+   <td>Java Quiz</td>
+      <td>Total Marks</td>
+      <!--<td>Percentage</td>-->
+  </tr>
+ </table>      
+             <script src="../style/script/app.js"></script>
+             
+             
+         </div>
+             <div class="col-12 row3">
+             <center><h3>Copyright &copy; All Rights Reserved - <a href="#">froshbuddy.xyz</a></h3></center>
+             
+             </div>
+            
+             </div>
+         
+    </body>
+    </html>
